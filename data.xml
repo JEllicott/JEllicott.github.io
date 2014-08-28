@@ -1,0 +1,26 @@
+<xml version="1.0" encoding="UTF-8">
+    <site>
+        <gallery>
+            <name>My first gallery</name>
+            <description>My gallery description</description>
+            <content>
+                <picture filename="mypicture.jpeg">
+                    <name>My picture</name>
+                    <info>
+                        <price>500</price>
+                        <type>Oil on canvas</type>
+                        <size>50x50cm</size>
+                    </info>
+                </picture>
+                <picture filename="mypicture2.jpeg">
+                    <name>My picture 2</name>
+                    <info>
+                        <price>500</price>
+                        <type>Oil on canvas</type>
+                        <size>50x50cm</size>
+                    </info>
+                </picture>
+            </content>
+        </gallery>
+    </site>
+</xml>
