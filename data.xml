@@ -4,7 +4,7 @@
             <name>My first gallery</name>
             <description>My gallery description</description>
             <content>
-                <picture filename=“recent1.jpg”>
+                <picture filename="recent1.jpg">
                     <name>My picture</name>
                     <info>
                         <price>500</price>
@@ -12,7 +12,7 @@
                         <size>50x50cm</size>
                     </info>
                 </picture>
-                <picture filename=“recent2.jpg”>
+                <picture filename="recent2.jpg">
                     <name>My picture</name>
                     <info>
                         <price>500</price>
@@ -20,7 +20,7 @@
                         <size>50x50cm</size>
                     </info>
                 </picture>
-                <picture filename=“recent3.jpg”>
+                <picture filename="recent3.jpg">
                     <name>My picture</name>
                     <info>
                         <price>500</price>
@@ -28,7 +28,7 @@
                         <size>50x50cm</size>
                     </info>
                 </picture>
-                <picture filename=“recent4.jpg”>
+                <picture filename="recent4.jpg">
                     <name>My picture</name>
                     <info>
                         <price>500</price>
@@ -36,7 +36,7 @@
                         <size>50x50cm</size>
                     </info>
                 </picture>
-                <picture filename=“recent5.jpg”>
+                <picture filename="recent5.jpg">
                     <name>My picture</name>
                     <info>
                         <price>500</price>
@@ -44,7 +44,7 @@
                         <size>50x50cm</size>
                     </info>
                 </picture>
-                <picture filename=“recent6.jpg”>
+                <picture filename="recent6.jpg">
                     <name>My picture</name>
                     <info>
                         <price>500</price>
