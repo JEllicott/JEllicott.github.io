@@ -4,7 +4,7 @@
             <name>My first gallery</name>
             <description>My gallery description</description>
             <content>
-                <picture filename="mypicture.jpeg">
+                <picture filename=“recent1.jpg”>
                     <name>My picture</name>
                     <info>
                         <price>500</price>
@@ -12,8 +12,40 @@
                         <size>50x50cm</size>
                     </info>
                 </picture>
-                <picture filename="mypicture2.jpeg">
-                    <name>My picture 2</name>
+                <picture filename=“recent2.jpg”>
+                    <name>My picture</name>
+                    <info>
+                        <price>500</price>
+                        <type>Oil on canvas</type>
+                        <size>50x50cm</size>
+                    </info>
+                </picture>
+                <picture filename=“recent3.jpg”>
+                    <name>My picture</name>
+                    <info>
+                        <price>500</price>
+                        <type>Oil on canvas</type>
+                        <size>50x50cm</size>
+                    </info>
+                </picture>
+                <picture filename=“recent4.jpg”>
+                    <name>My picture</name>
+                    <info>
+                        <price>500</price>
+                        <type>Oil on canvas</type>
+                        <size>50x50cm</size>
+                    </info>
+                </picture>
+                <picture filename=“recent5.jpg”>
+                    <name>My picture</name>
+                    <info>
+                        <price>500</price>
+                        <type>Oil on canvas</type>
+                        <size>50x50cm</size>
+                    </info>
+                </picture>
+                <picture filename=“recent6.jpg”>
+                    <name>My picture</name>
                     <info>
                         <price>500</price>
                         <type>Oil on canvas</type>
