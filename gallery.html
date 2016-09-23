@@ -20,12 +20,12 @@
 
     <div class="gallery">
         <div class="galleria">
-            <img src="recent1.jpg" data-title="My title" data-description="My description">
-            <img src="recent2.jpg" data-title="My title" data-description="My description">
-            <img src="recent3.jpg" data-title="My title" data-description="My description">
-            <img src="recent4.jpg" data-title="My title" data-description="My description">
-            <img src="recent5.jpg" data-title="My title" data-description="My description">
-            <img src="recent6.jpg" data-title="My title" data-description="My description">
+            <img src="recent1.jpg">
+            <img src="recent2.jpg">
+            <img src="recent3.jpg">
+            <img src="recent4.jpg">
+            <img src="recent5.jpg">
+            <img src="recent6.jpg">
         </div>
     </div>
 
@@ -38,6 +38,9 @@
 <script>
     Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
     Galleria.run('.galleria', {responsive:true,height:0.5625});
+    Galleria.configure({
+        transition: 'fade',
+    });
 </script>
 
 </body>

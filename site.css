@@ -36,7 +36,33 @@ h1 > hr {
 
 .gallery {
     padding-top: 100px;
+}
 
+#bio-wrapper {
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.bio {
+    text-align: center;
+    font-family: 'Source Sans Pro' ,Arial, sans-serif;
+}
+
+.contact {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contact-content {
+    display: inline-block;
+    font-family: 'Source Sans Pro' ,Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+.contact-content small {
+    font-weight: 200;
 }
 
 .trademark {
@@ -109,3 +135,37 @@ h1 > hr {
 .snip1250 .current a {
     transform: translateX(-100%);
 }
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 80%;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    display: inline-block;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote:after {
+    display: block;
+    content: "\201D";
+    font-size: 80px;
+    position: absolute;
+    bottom: -60px;
+    color: #7a7a7a;
+    right: 0;
+}
+
