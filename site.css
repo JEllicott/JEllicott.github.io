@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic);
+
+body {
+}
+
+h1 {
+    font-family: 'Source Sans Pro' ,Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    color: #323232;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+h1 > small {
+    color: #555555;
+}
+
+h1 > hr {
+    visibility: hidden;
+    margin-top: -20px;
+}
+
+.menu {
+    position: absolute;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+
+    right: 0;
+    top: 0;
+}
+
+.gallery {
+    padding-top: 100px;
+
+}
+
+.trademark {
+    font-family: 'Source Sans Pro' ,Arial, sans-serif;
+    position: absolute;
+    font-size: smaller;
+    bottom: 0;
+    right: 10px;
+}
+
+.container {
+    position: relative;
+
+    margin: auto;
+    outline: solid black 1px;
+    height: 600px;
+    width: 730px;
+}
+
+.snip1250 {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.snip1250 * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+.snip1250 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 0.5em;
+    overflow: hidden;
+}
+.snip1250 a {
+    padding: 0 0.2em 0 0.5em;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+}
+.snip1250 a:before,
+.snip1250 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+.snip1250 a:before {
+    left: 100%;
+    display: block;
+    width: 3px;
+    height: 100%;
+    content: "";
+    background-color: rgba(33,33,33,0.5);
+}
+.snip1250 a:after {
+    padding: 0 0.2em 0 0.5em;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    content: attr(data-hover);
+    color: black;
+    white-space: nowrap;
+}
+.snip1250 li:hover a,
+.snip1250 .current a {
+    transform: translateX(-100%);
+}

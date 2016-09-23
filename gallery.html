@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Jennifer Ellicott | Gallery</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="galleria/themes/classic/galleria.classic.css">
+</head>
+<body>
+<div class="container">
+    <h1>Jennifer Ellicott <hr><small>Contemporary Dance Artist</small></h1>
+    <div class="menu">
+        <ul class="snip1250">
+            <li><a href="index.html" data-hover="Home">Home</a></li>
+            <li class="current"><a href="gallery.html" data-hover="Gallery">Gallery</a></li>
+            <li><a href="bio.html" data-hover="Bio">Bio</a></li>
+            <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="gallery">
+        <div class="galleria">
+            <img src="http://img01.thedrum.com/s3fs-public/news/tmp/980/rugbyworldcup.jpg" data-title="My title" data-description="My description">
+            <img src="http://i.telegraph.co.uk/multimedia/archive/02414/israel-daggget_2414426k.jpg" data-title="Another title" data-description="My <em>HTML</em> description">
+        </div>
+    </div>
+
+    <p class="trademark">Copyright 2016 ©</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="galleria/galleria-1.4.2.min.js"></script>
+
+<script>
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria', {responsive:true,height:0.5625});
+</script>
+
+</body>
+</html>
