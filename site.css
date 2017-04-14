@@ -71,6 +71,8 @@ h1 > hr {
     font-size: smaller;
     bottom: 0;
     right: 10px;
+    margin-bottom: 0;
+    margin-right: -5px;
 }
 
 .container {
@@ -167,5 +169,10 @@ blockquote:after {
     bottom: -60px;
     color: #7a7a7a;
     right: 0;
+}
+
+.icn {
+    width: 40px;
+    height: 40px;
 }
 
